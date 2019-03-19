@@ -1,5 +1,5 @@
 ﻿# Config
-NODE_ID = 1
+NODE_ID = @NODE_ID
 
 
 # hour,set 0 to disable
@@ -12,7 +12,7 @@ MU_SUFFIX = 'zhaoj.in'
 MU_REGEX = '%5m%id.%suffix'
 
 SERVER_PUB_ADDR = '127.0.0.1'  # mujson_mgr need this to generate ssr link
-API_INTERFACE = 'modwebapi'  # glzjinmod, modwebapi
+API_INTERFACE = '@API_INTERFACE'  # glzjinmod, modwebapi
 
 WEBAPI_URL = 'https://zhaoj.in'
 WEBAPI_TOKEN = 'glzjin'
@@ -21,11 +21,11 @@ WEBAPI_TOKEN = 'glzjin'
 MUDB_FILE = 'mudb.json'
 
 # Mysql
-MYSQL_HOST = '127.0.0.1'
-MYSQL_PORT = 3306
-MYSQL_USER = 'ss'
-MYSQL_PASS = 'ss'
-MYSQL_DB = 'shadowsocks'
+MYSQL_HOST = '@MYSQL_HOST'
+MYSQL_PORT = @MYSQL_PORT
+MYSQL_USER = '@MYSQL_USER'
+MYSQL_PASS = '@MYSQL_PASS'
+MYSQL_DB = '@MYSQL_DB'
 
 MYSQL_SSL_ENABLE = 0
 MYSQL_SSL_CA = ''
